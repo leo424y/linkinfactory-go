@@ -262,6 +262,7 @@ DEPENDENCIES
   devise (~> 3.4.1)!
   jbuilder (~> 2.6)
   jquery-rails
+  json (= 1.8.1)
   pg
   rails (= 4.2.0)
   rails_best_practices
