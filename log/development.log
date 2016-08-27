@@ -4334,3 +4334,37 @@ Started GET "/assets/application-40bd7f3ac152f59ecc7f3d304ed8b899.js?body=1" for
 
 
 Started GET "/assets/123-f4408fc0b7c82a24210445f095643edf.png" for ::1 at 2016-08-26 18:50:14 +0800
+
+
+Started GET "/" for ::1 at 2016-08-27 17:47:56 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (11.8ms)
+  Rendered common/_navbar.html.erb (2.7ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 157ms (Views: 124.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/application-954ac11e7cb84c8da1577a949956fb41.css?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/bootstrap/dropdown-85b34e99a6b5bb1a35c8751aed3e09d7.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/bootstrap/alert-12c1121c517b3085934c9173c0e083ed.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/application-40bd7f3ac152f59ecc7f3d304ed8b899.js?body=1" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/assets/123-f4408fc0b7c82a24210445f095643edf.png" for ::1 at 2016-08-27 17:47:56 +0800

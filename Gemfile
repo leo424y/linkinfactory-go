@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'json', '1.8.1'
+gem 'json', '1.8.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -18,12 +18,12 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.6'
+gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "bootstrap-sass"
-gem "simple_form", "~> 3.1.0.rc2", github: "plataformatec/simple_form", branch: "master"
+gem "simple_form"
 gem "devise", "~> 3.4.1", github: "plataformatec/devise", branch: "master"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
