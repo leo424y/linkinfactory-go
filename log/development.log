@@ -4368,3 +4368,82 @@ Started GET "/assets/application-40bd7f3ac152f59ecc7f3d304ed8b899.js?body=1" for
 
 
 Started GET "/assets/123-f4408fc0b7c82a24210445f095643edf.png" for ::1 at 2016-08-27 17:47:56 +0800
+
+
+Started GET "/" for ::1 at 2016-08-27 18:56:59 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (9.3ms)
+  Rendered common/_navbar.html.erb (2.0ms)
+  Rendered common/_footer.html.erb (0.4ms)
+Completed 200 OK in 2882ms (Views: 2862.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-08-27 18:57:02 +0800
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.1ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.0ms)
+  Rendered common/_navbar.html.erb (1.1ms)
+  Rendered common/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-1a761bbd77d22ba526eaee7263f138028ad211e401e4988b7fcbac7a2304d78f.css?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/assets/123-6084d222442164e0be572671e0f1c2ce3af60bb75e8f76c976c76e593f25da8e.png" for ::1 at 2016-08-27 18:57:02 +0800
+
+
+Started GET "/" for ::1 at 2016-08-27 18:57:07 +0800
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.1ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (0.9ms)
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/groups/new" for ::1 at 2016-08-27 18:57:10 +0800
+Processing by GroupsController#new as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for ::1 at 2016-08-27 18:57:10 +0800
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007fad346e3a00>):
+  app/controllers/application_controller.rb:10:in `configure_permitted_parameters'
+
+
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.3ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.4ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.6ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/y/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.6ms)
